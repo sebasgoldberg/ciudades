@@ -2,5 +2,5 @@ tags
 *.swp
 *.swo
 *.pyc
-iamsoft_ciudades/ambiente.py
+ciudades/ambiente.py
 .coverage

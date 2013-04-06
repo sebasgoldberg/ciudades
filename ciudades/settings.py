@@ -112,10 +112,10 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'iamsoft_ciudades.urls'
+ROOT_URLCONF = 'ciudades.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'iamsoft_ciudades.wsgi.application'
+WSGI_APPLICATION = 'ciudades.wsgi.application'
 
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
@@ -207,4 +207,5 @@ TEMPLATE_CONTEXT_PROCESSORS=(
 
 #LOCALE_PATHS=(ambiente.project_directory+'locale',)
 
-CITIES_LIGHT_CITY_SOURCES = ['http://download.geonames.org/export/dump/BR.zip','http://download.geonames.org/export/dump/AR.zip']
+#CITIES_LIGHT_CITY_SOURCES = ['http://download.geonames.org/export/dump/BR.zip','http://download.geonames.org/export/dump/AR.zip']
+#CITIES_LIGHT_CITY_SOURCES = ['http://download.geonames.org/export/dump/cities5000.zip']
