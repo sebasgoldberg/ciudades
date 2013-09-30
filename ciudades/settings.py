@@ -184,12 +184,6 @@ LOGGING = {
     }
 }
 
-EMAIL_USE_TLS = True
-EMAIL_HOST = ambiente.email.host
-EMAIL_HOST_USER = ambiente.email.user
-EMAIL_HOST_PASSWORD = ambiente.email.password
-EMAIL_PORT = ambiente.email.port
-
 TEMPLATE_CONTEXT_PROCESSORS=(
   "django.contrib.auth.context_processors.auth",
   "django.core.context_processors.debug",
