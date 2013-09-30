@@ -5,9 +5,7 @@ function get_ambient_parameter
   echo "$(python -c "from ciudades.ambiente import ambiente; print ambiente.$1" )"
 }
 
-git clone https://github.com/sebasgoldberg/ciudades.git
-
-cd ciudades
+cd "$(readlink -f "$(dirname "$0")")"
 
 DB_NAME="$(get_ambient_parameter "db.name")"
 DB_USER="$(get_ambient_parameter "db.user")"
