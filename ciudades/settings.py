@@ -149,6 +149,7 @@ INSTALLED_APPS = (
     #'agencia',
     #'agenciado',
     #'trabajo',
+    'countryfilter',
 )
 
 if not ambiente.productivo:

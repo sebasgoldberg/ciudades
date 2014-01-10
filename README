@@ -1,0 +1,5 @@
+INSTALL
+-------
+
+1) run ./config.sh and set your configuration.
+2) run ./install.sh
